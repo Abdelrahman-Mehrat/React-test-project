@@ -1,0 +1,14 @@
+.shop-list{
+    background-color: white;
+    color: black;
+}
+.item{
+    border: 1px solid tomato;
+    min-height: 200px;
+    transition: 1s linear;
+    cursor: pointer;
+}
+.item:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: rgba(231, 112, 15, 0.705) 0px 3px 8px;
+}

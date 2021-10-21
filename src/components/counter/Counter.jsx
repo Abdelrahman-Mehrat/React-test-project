@@ -4,7 +4,6 @@ function Counter(props){
         <>
         <h1>{props.myCount}</h1>
         <h2>increment app</h2>
-        <hr />
     </>
     )
 }

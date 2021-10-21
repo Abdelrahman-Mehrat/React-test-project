@@ -18,9 +18,11 @@ function CounterContent(){
         setCount(0);
       }
     return(
-        <section className="content">
+        <section className=" container">
+        <div className="w-50 mx-auto border content">
         <Counter myCount={count}/>
         <CounterLogic incre={incrementFunc} decre={decrementFunc} reset={resetFunc}/>
+        </div> 
         </section>
     )
 }
